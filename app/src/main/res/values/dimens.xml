@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height">28dp</dimen>
+    <dimen name="width150">150dp</dimen>
+    <dimen name="width200">200dp</dimen>
+    <dimen name="width300">300dp</dimen>
+    <dimen name="width350">350dp</dimen>
+    <dimen name="width60">60dp</dimen>
+    <dimen name="width80">80dp</dimen>
+    <dimen name="width400">400dp</dimen>
+    <dimen name="width330">330dp</dimen>
+</resources>

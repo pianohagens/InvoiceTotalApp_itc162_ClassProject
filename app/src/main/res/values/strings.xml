@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InvoiceTotalApp_itc162_ClassProject</string>
+    <string name="appTitle">Invoice Total App</string>
+    <string name="subtotalLabel">Subtotal</string>
+    <string name="inputSubtotal"></string>
+    <string name="discountPercentLabel">Discount Percent</string>
+    <string name="inputDiscountPercent"></string>
+    <string name="discountAmountLabel">Discount Amount</string>
+    <string name="showDiscountAmount"></string>
+    <string name="totalLabel">Total</string>
+    <string name="totalAmount"></string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="EmptyInputValue"></string>
+</resources>
