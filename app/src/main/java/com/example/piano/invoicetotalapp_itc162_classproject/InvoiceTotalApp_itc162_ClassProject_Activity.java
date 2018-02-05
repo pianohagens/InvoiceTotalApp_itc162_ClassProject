@@ -1,5 +1,4 @@
 package com.example.piano.invoicetotalapp_itc162_classproject;
-
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -98,7 +97,6 @@ implements OnEditorActionListener{
         //Display input value with percentage formatting
         NumberFormat rate = NumberFormat.getPercentInstance();
         inputDiscountPercent.setText(rate.format(myDiscount/100));
-
     }
     @Override
     public boolean onEditorAction(TextView textView, int i, KeyEvent keyEvent) {
@@ -115,4 +113,5 @@ implements OnEditorActionListener{
         showDiscountAmount.setText("");
         totalAmount.setText("");
     }
+    //just for recommit
 }
