@@ -9,7 +9,6 @@
     tools:context="com.example.piano.invoicetotalapp_itc162_classproject.InvoiceTotalApp_itc162_ClassProject_Activity"
     tools:layout_editor_absoluteY="81dp">
 
-
     <TextView
         android:id="@+id/appTitle"
         android:layout_width="wrap_content"
@@ -114,7 +113,7 @@
         android:id="@+id/showDiscountAmount"
         android:layout_width="@dimen/width80"
         android:layout_height="@dimen/height"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginTop="164dp"
         android:background="@android:color/holo_orange_dark"
         android:text=""
@@ -161,7 +160,7 @@
         android:layout_marginTop="19dp"
         android:background="@android:color/holo_green_dark"
         android:onClick="Clear"
-        android:text="Clear All"
+        android:text="@string/clear_all"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

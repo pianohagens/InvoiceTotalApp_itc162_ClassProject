@@ -11,4 +11,5 @@
     <string name="totalAmount"></string>
     <string name="enter_amount">Enter Amount</string>
     <string name="EmptyInputValue"></string>
+    <string name="clear_all">Clear</string>
 </resources>

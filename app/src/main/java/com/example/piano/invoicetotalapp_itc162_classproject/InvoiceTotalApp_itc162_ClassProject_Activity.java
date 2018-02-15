@@ -1,8 +1,12 @@
 package com.example.piano.invoicetotalapp_itc162_classproject;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
@@ -32,6 +36,8 @@ implements OnEditorActionListener{
     private String subtotalString ="";
     private String discountPercentString = "";
     //private float discountPercent = .10f;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +71,31 @@ implements OnEditorActionListener{
         editSubtotal.commit();
         editDiscountAmount.commit();
     }
+
+    // 2/14/2018 displaying the menu
+    public boolean onCreateOptionMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.option_menu, menu);
+        return true;
+    }
+    // 2/14/2018 handle the menu event
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.about:
+                startActivity(new Intent(this, AboutActivity.class));
+                return true;
+
+            case R.id.help:
+                startActivity(new Intent(this, HelpActivity.class));
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+
+
+        }
+    }
+
     public void computAndDisplay(){
         //get the input Subtotal
         subtotalString = inputSubtotal.getText().toString();
